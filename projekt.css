@@ -310,4 +310,45 @@ h2
 	text-align: center;
 	padding-bottom: 70px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	algin items: center;
+	flex-wrap: wrap;
+}
+.przycisk a
+{
+	position: relative;
+	display: inline-block;
+	border: 2px solid #D11200;
+	margin: 40px;
+	text-transform: uppercase;
+	font-wegiht: 500;
+	text-decoration: none;
+	Letter-spacing: 2px;
+	color: #fff;
+	-webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+	transition: 0,5s;
+	
+}
+.przycisk a:hover
+{
+	color: #000;
+}
+.przycisk a:nth-child(2)
+{
+	filter: hue-rotate(80deg);
+	
+}
+.przycisk a::before
+{
+	conent: '';
+	position: absolute;
+	Left: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 2px;
+	background: #0f0;
+	box-shadow: 5px -8px 0 #0f0,
+		    5px 8px 0 #0f0;
 }
