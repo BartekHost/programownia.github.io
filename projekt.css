@@ -352,7 +352,8 @@ h2
 	background: #0f0;
 	box-shadow: 5px -8px 0 #0f0,
 				5px 8px 0 #0f0;
-	transition: width 0.5s,;
+	transition: width 0.5s,left 0.5s, height 0.5s,box-shadow 0.5s;
+	transition-delay: 1s,0.5s,0s,0s;
 }
 .przycisk a::hover::before
 {
@@ -361,5 +362,6 @@ h2
 	left: -2px;
 	box-shadow: 5px 0 0 #0f0,
 				5px 0 0 #0f0;
+	transition-delay: 0s,,0.5s,1s,1s,;
 
 }
