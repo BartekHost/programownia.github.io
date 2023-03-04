@@ -302,6 +302,7 @@ h2
 {
 	margin-top: 15px;
 }
+
 .przycisk
 {
 	margin-left: auto;
@@ -329,7 +330,7 @@ h2
 	color: #fff;
 	-webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
 	transition: 0,5s;
-	
+
 }
 .przycisk a:hover
 {
@@ -338,7 +339,7 @@ h2
 .przycisk a:nth-child(2)
 {
 	filter: hue-rotate(80deg);
-	
+
 }
 .przycisk a::before
 {
