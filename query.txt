@@ -1,0 +1,1 @@
+INSERT INTO `comments` (`id`, `user`, `comment`) VALUES ('1', 'admin', 'Pierwszy komentarz w systemie komentarzy');
