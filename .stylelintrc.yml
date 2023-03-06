@@ -1,5 +1,0 @@
-extends:
-  - stylelint-config-hope
-
-rules:
-  string-quotes: single
