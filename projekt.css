@@ -1,10 +1,15 @@
 body
 {
-	margin: 0;
-	background-color: #2F3336;
-	color: #efefef;
-    
-    font-size: 17px;
+	 width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--green);
+    background: linear-gradient(to right top, var(--dark), var(--green));
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .animowane {
