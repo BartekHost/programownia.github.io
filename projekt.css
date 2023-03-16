@@ -1,0 +1,248 @@
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.contact p
+{
+	margin-bottom: 50px;
+}
+
+.bluebutton
+{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover
+{
+	background-color: #196499;
+}
+
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.west
+{
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.east
+{
+	float: left;
+	width: 170px;
+	padding: 20px;
+}
+
+.west h1
+{
+	font-size: 32px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.east ul
+{
+	padding-left: 20px;
+}
+
+.east ul > li
+{
+	margin-bottom: 5px;
+}
+
+.east img
+{
+	margin-top: 15px;
+}
+.przycisk
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	algin-items: center;
+	flex-wrap: wrap;
+}
+.przycisk a
+{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	border: 2px solid #0f0;
+	margin: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: #fff;
+	-webkit-box-reflect: below 0px linear-gradient(transparent,#000);
+	transition: 0,5s;
+
+}
+.przycisk a:hover
+{
+	transition-delay: 1.5s;
+	color: #000;
+	box-shadow: 0 0 10px #0f0,
+	0 0 16px #0f0,
+	0 0 36px #0f0,
+	0 0 76px #0f0,
+	0 0 96px #0f0;
+}
+.przycisk a:nth-child(2)
+{
+	filter: hue-rotate(80deg);
+
+}
+.przycisk a::before
+{
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 2px;
+	background: #0f0;
+	box-shadow: 5px -7px 0 #0f0,
+							5px 7px 0 #0f0;
+	transition: width 0.5s,left 0.5s, height 0.5s,box-shadow 0.5s;
+	transition-delay: 1s,0.5s,0s,0s;
+	box-shadow: 0.5s;
+}
+.przycisk a:hover::before
+{
+	width: 60%;
+	height: 100%;
+	left: -2px;
+	box-shadow: 5px 0 0 #0f0,
+				5px 0 0 #0f0;
+	transition-delay: 0s,0.5s,1s,1s,;
+
+}
+
+
+.przycisk a::after
+{
+	content: '';
+	position: absolute;
+	right: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 2px;
+	background: #0f0;
+	box-shadow: -5px -7px 0 #0f0,
+							-5px 7px 0 #0f0;
+	transition: width 0.5s,left 0.5s, height 0.5s,box-shadow 0.5s;
+	transition-delay: 1s,0.5s,0s,0s;
+}
+.przycisk a:hover::after
+{
+	width: 60%;
+	height: 100%;
+	right: -2px;
+	box-shadow: 5px 0 0 #0f0,
+							5px 0 0 #0f0;
+	transition-delay: 0s,0.5s,1s,1s,;
+
+}
+.przycisk a span
+{
+	position: relative;
+	z-index: 80;
+
+}
